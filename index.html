@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descarga Aquí</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: white;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    .download-btn {
+      background-color: #ffffff;
+      color: #764ba2;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .download-btn:hover {
+      background-color: #f0f0f0;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¡Descarga tu archivo!</h1>
+    <p>Haz clic en el botón para comenzar la descarga.</p>
+    <a href="MatchingPfp.exe" class="download-btn" download>Descargar</a>
+  </div>
+</body>
+</html>
